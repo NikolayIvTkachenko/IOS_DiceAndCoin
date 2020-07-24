@@ -9,23 +9,36 @@
 /* Begin PBXBuildFile section */
 		95BEC7AF24CAD4EF008222AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BEC7AE24CAD4EF008222AD /* AppDelegate.swift */; };
 		95BEC7B124CAD4EF008222AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BEC7B024CAD4EF008222AD /* SceneDelegate.swift */; };
-		95BEC7B324CAD4EF008222AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BEC7B224CAD4EF008222AD /* ViewController.swift */; };
 		95BEC7B624CAD4EF008222AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BEC7B424CAD4EF008222AD /* Main.storyboard */; };
 		95BEC7B924CAD4EF008222AD /* DiceAndCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95BEC7B724CAD4EF008222AD /* DiceAndCoin.xcdatamodeld */; };
 		95BEC7BB24CAD4F0008222AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BEC7BA24CAD4F0008222AD /* Assets.xcassets */; };
 		95BEC7BE24CAD4F0008222AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BEC7BC24CAD4F0008222AD /* LaunchScreen.storyboard */; };
+		95D757B124CADD7D000C084A /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D757B024CADD7D000C084A /* DiceViewController.swift */; };
+		95D757B324CADD8F000C084A /* TwoDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D757B224CADD8F000C084A /* TwoDiceViewController.swift */; };
+		95D757B524CADDA3000C084A /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D757B424CADDA3000C084A /* CoinViewController.swift */; };
+		95D757B724CADDB2000C084A /* ThreeCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D757B624CADDB2000C084A /* ThreeCoinViewController.swift */; };
+		95D757B924CAF166000C084A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D757B824CAF166000C084A /* TabBarViewController.swift */; };
+		95D757BB24CB09C6000C084A /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D757BA24CB09C6000C084A /* Algorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075975CBE5C8A4431251B719 /* Pods-DiceAndCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiceAndCoin.release.xcconfig"; path = "Target Support Files/Pods-DiceAndCoin/Pods-DiceAndCoin.release.xcconfig"; sourceTree = "<group>"; };
+		5EABE485D94315421E7A7E8E /* Pods-DiceAndCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiceAndCoin.debug.xcconfig"; path = "Target Support Files/Pods-DiceAndCoin/Pods-DiceAndCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		95BEC7AB24CAD4EF008222AD /* DiceAndCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceAndCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BEC7AE24CAD4EF008222AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95BEC7B024CAD4EF008222AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95BEC7B224CAD4EF008222AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95BEC7B524CAD4EF008222AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95BEC7B824CAD4EF008222AD /* DiceAndCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiceAndCoin.xcdatamodel; sourceTree = "<group>"; };
 		95BEC7BA24CAD4F0008222AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95BEC7BD24CAD4F0008222AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95BEC7BF24CAD4F0008222AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D757B024CADD7D000C084A /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
+		95D757B224CADD8F000C084A /* TwoDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDiceViewController.swift; sourceTree = "<group>"; };
+		95D757B424CADDA3000C084A /* CoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
+		95D757B624CADDB2000C084A /* ThreeCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCoinViewController.swift; sourceTree = "<group>"; };
+		95D757B824CAF166000C084A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		95D757BA24CB09C6000C084A /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		D60652233F3AEE775ECF0BD1 /* Pods_DiceAndCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiceAndCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E77B2F1B4A4C903951C10EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EABE485D94315421E7A7E8E /* Pods-DiceAndCoin.debug.xcconfig */,
+				075975CBE5C8A4431251B719 /* Pods-DiceAndCoin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		95BEC7A224CAD4EF008222AD = {
 			isa = PBXGroup;
 			children = (
 				95BEC7AD24CAD4EF008222AD /* DiceAndCoin */,
 				95BEC7AC24CAD4EF008222AD /* Products */,
+				3E77B2F1B4A4C903951C10EB /* Pods */,
+				C5E6DB8DAFE5C4904558E21C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +82,53 @@
 		95BEC7AD24CAD4EF008222AD /* DiceAndCoin */ = {
 			isa = PBXGroup;
 			children = (
-				95BEC7AE24CAD4EF008222AD /* AppDelegate.swift */,
-				95BEC7B024CAD4EF008222AD /* SceneDelegate.swift */,
-				95BEC7B224CAD4EF008222AD /* ViewController.swift */,
-				95BEC7B424CAD4EF008222AD /* Main.storyboard */,
+				95D757AD24CADD29000C084A /* Model */,
+				95D757AE24CADD2F000C084A /* View */,
+				95D757AF24CADD36000C084A /* Controller */,
 				95BEC7BA24CAD4F0008222AD /* Assets.xcassets */,
-				95BEC7BC24CAD4F0008222AD /* LaunchScreen.storyboard */,
 				95BEC7BF24CAD4F0008222AD /* Info.plist */,
 				95BEC7B724CAD4EF008222AD /* DiceAndCoin.xcdatamodeld */,
 			);
 			path = DiceAndCoin;
+			sourceTree = "<group>";
+		};
+		95D757AD24CADD29000C084A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95D757BA24CB09C6000C084A /* Algorithm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95D757AE24CADD2F000C084A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95BEC7AE24CAD4EF008222AD /* AppDelegate.swift */,
+				95BEC7B424CAD4EF008222AD /* Main.storyboard */,
+				95BEC7B024CAD4EF008222AD /* SceneDelegate.swift */,
+				95BEC7BC24CAD4F0008222AD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95D757AF24CADD36000C084A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95D757B024CADD7D000C084A /* DiceViewController.swift */,
+				95D757B224CADD8F000C084A /* TwoDiceViewController.swift */,
+				95D757B424CADDA3000C084A /* CoinViewController.swift */,
+				95D757B624CADDB2000C084A /* ThreeCoinViewController.swift */,
+				95D757B824CAF166000C084A /* TabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5E6DB8DAFE5C4904558E21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60652233F3AEE775ECF0BD1 /* Pods_DiceAndCoin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +138,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95BEC7C224CAD4F0008222AD /* Build configuration list for PBXNativeTarget "DiceAndCoin" */;
 			buildPhases = (
+				CCEEBD04CC043B5D1D75D76B /* [CP] Check Pods Manifest.lock */,
 				95BEC7A724CAD4EF008222AD /* Sources */,
 				95BEC7A824CAD4EF008222AD /* Frameworks */,
 				95BEC7A924CAD4EF008222AD /* Resources */,
@@ -136,15 +198,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CCEEBD04CC043B5D1D75D76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiceAndCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95BEC7A724CAD4EF008222AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95BEC7B324CAD4EF008222AD /* ViewController.swift in Sources */,
+				95D757B924CAF166000C084A /* TabBarViewController.swift in Sources */,
+				95D757BB24CB09C6000C084A /* Algorithm.swift in Sources */,
 				95BEC7B924CAD4EF008222AD /* DiceAndCoin.xcdatamodeld in Sources */,
 				95BEC7AF24CAD4EF008222AD /* AppDelegate.swift in Sources */,
 				95BEC7B124CAD4EF008222AD /* SceneDelegate.swift in Sources */,
+				95D757B524CADDA3000C084A /* CoinViewController.swift in Sources */,
+				95D757B324CADD8F000C084A /* TwoDiceViewController.swift in Sources */,
+				95D757B724CADDB2000C084A /* ThreeCoinViewController.swift in Sources */,
+				95D757B124CADD7D000C084A /* DiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +378,13 @@
 		};
 		95BEC7C324CAD4F0008222AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EABE485D94315421E7A7E8E /* Pods-DiceAndCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FDA988DZF;
 				INFOPLIST_FILE = DiceAndCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +398,13 @@
 		};
 		95BEC7C424CAD4F0008222AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075975CBE5C8A4431251B719 /* Pods-DiceAndCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FDA988DZF;
 				INFOPLIST_FILE = DiceAndCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
