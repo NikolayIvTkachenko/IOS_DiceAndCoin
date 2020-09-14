@@ -13,8 +13,6 @@ class DiceViewController: UIViewController {
     let algoritm = Algorithm()
     
     @IBOutlet weak var imageDice: UIImageView!
-    
-
 
     
     override func viewDidLoad() {
